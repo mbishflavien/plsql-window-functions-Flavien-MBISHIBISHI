@@ -1,0 +1,32 @@
+INSERT INTO customers VALUES (1, 'Alice M.', 'Kigali');
+INSERT INTO customers VALUES (2, 'Ben K.', 'Remera');
+INSERT INTO customers VALUES (3, 'Clara T.', 'Kacyiru');
+INSERT INTO customers VALUES (4, 'David N.', 'Kigali');
+INSERT INTO customers VALUES (5, 'Eva R.', 'Remera');
+INSERT INTO customers VALUES (6, 'Frank L.', 'Kacyiru');
+INSERT INTO customers VALUES (7, 'Grace P.', 'Kigali');
+INSERT INTO customers VALUES (8, 'Henry O.', 'Remera');
+INSERT INTO customers VALUES (9, 'Ivy Q.', 'Kacyiru');
+INSERT INTO customers VALUES (10, 'James S.', 'Kigali');
+
+INSERT INTO products VALUES (1, 'Espresso', 'Beverage');
+INSERT INTO products VALUES (2, 'Cappuccino', 'Beverage');
+INSERT INTO products VALUES (3, 'Latte', 'Beverage');
+INSERT INTO products VALUES (4, 'Mocha', 'Beverage');
+INSERT INTO products VALUES (5, 'Americano', 'Beverage');
+INSERT INTO products VALUES (6, 'Croissant', 'Pastry');
+INSERT INTO products VALUES (7, 'Muffin', 'Pastry');
+INSERT INTO products VALUES (8, 'Bagel', 'Pastry');
+INSERT INTO products VALUES (9, 'Sandwich', 'Snack');
+INSERT INTO products VALUES (10, 'Cookie', 'Snack');
+
+INSERT INTO transactions VALUES (1, 1, 1, TO_DATE('2024-01-05','YYYY-MM-DD'), 3000);
+INSERT INTO transactions VALUES (2, 2, 6, TO_DATE('2024-01-06','YYYY-MM-DD'), 2000);
+INSERT INTO transactions VALUES (3, 3, 2, TO_DATE('2024-02-10','YYYY-MM-DD'), 3500);
+INSERT INTO transactions VALUES (4, 4, 3, TO_DATE('2024-02-12','YYYY-MM-DD'), 4000);
+INSERT INTO transactions VALUES (5, 5, 7, TO_DATE('2024-03-01','YYYY-MM-DD'), 2500);
+INSERT INTO transactions VALUES (6, 6, 4, TO_DATE('2024-03-15','YYYY-MM-DD'), 3800);
+INSERT INTO transactions VALUES (7, 7, 8, TO_DATE('2024-04-02','YYYY-MM-DD'), 2200);
+INSERT INTO transactions VALUES (8, 8, 5, TO_DATE('2024-04-18','YYYY-MM-DD'), 3300);
+INSERT INTO transactions VALUES (9, 9, 9, TO_DATE('2024-05-05','YYYY-MM-DD'), 4500);
+INSERT INTO transactions VALUES (10, 10, 10, TO_DATE('2024-05-20','YYYY-MM-DD'), 1500);
