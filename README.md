@@ -29,7 +29,7 @@ Expected Outcome: Use PL/SQL window functions to generate insights into sales pe
 
  Insights
 - Descriptive: Top spenders are mostly from Kigali; sales peak around April and May.  
-- Diagnostic:** High sales align with product launches and promotions. Lower months show reduced transactions.  
+- Diagnostic: High sales align with product launches and promotions. Lower months show reduced transactions.  
 - Prescriptive: Marketing should focus on Kigali customers and repeat promotions during peak months. Introducing loyalty rewards could increase retention.  
 
 
@@ -44,4 +44,4 @@ Expected Outcome: Use PL/SQL window functions to generate insights into sales pe
 8. Oracle Community Forums  
      
 
-All sources were properly cited. Implementations and analysis represent original work. No AIgenerated content was copied without attribution or adaptation.
+All sources were properly cited. Implementations and analysis represent original work. No AI generated content was copied without attribution or adaptation.
